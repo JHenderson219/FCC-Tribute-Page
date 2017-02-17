@@ -2,7 +2,12 @@ body{
 	font-family: 'open-sans', sans-serif;
 	font-weight: 300;
 }
-
+h1{
+	font-size: 1.9em;
+}
+label{
+	font-size: 0.8em;
+}
 .main-div{
 	width: 100%;
 	display: flex;
@@ -12,5 +17,32 @@ body{
 }
 
 .tribute-img{
-	
+	max-width: 500px;
+	height: 400px;
+	flex-shrink: 2;
+	align-self: center
+	justify-content: center;
+	margin: auto;
+}
+#img-div{
+	display: flex;
+	flex-shrink: 1;
+	width: 80%;
+}
+#img-caption{
+	display: flex;
+	align-self: center;
+}
+#title{
+	max-width: 100%;
+	max-height: 10%;
+}
+#tribute-info{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 80%;
+}
+.tribute-paragraph{
+
 }
