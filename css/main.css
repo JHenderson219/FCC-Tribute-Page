@@ -40,8 +40,9 @@ label{
 #tribute-info{
 	display: flex;
 	flex-direction: column;
+	align-content: center;
 	margin: auto;
-	width: 80%;
+	width: 95%;
 }
 .tribute-paragraph{
 
