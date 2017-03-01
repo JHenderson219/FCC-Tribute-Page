@@ -25,6 +25,7 @@ label{
 	justify-content: center;
 	margin: auto;
 	margin-bottom: 5px;
+	border-radius: 15px;
 }
 #img-div{
 	display: flex;
@@ -36,14 +37,14 @@ label{
 	margin: 10px;
 	padding: 10px;
 	background-color: #ffffff;
+	text-align: center;
+	justify-content: center;
 }
 #img-caption{
 	display: flex;
 	align-self: center;
 }
-#title{
-	
-}
+
 .tribute-title{
 	box-shadow: 0px 0px 10px #888888;
 	width: 100%;
@@ -82,5 +83,37 @@ label{
 
 .card-holder{
 	display: flex;
-	flex-direction: column;
+	flex-flow: row wrap;
+}
+
+a.button{
+	-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    padding: 5px;
+    margin: auto;
+    flex-shrink: 0.5;
+   	font-size: 3vmin;
+   	border-radius: 25px;
+}
+
+#linkCard{
+	display: flex;
+}
+#grammyList{
+	font-size: 0.7em;
+}
+li{
+	background-color: #d8d8d8;
+	margin: 5px;
+	padding:5px;
+	border-radius: 25px;
+}
+
+ul{
+	list-style-type: none;
+	list-style-position: inside;
+	padding-left: 5px;
 }
